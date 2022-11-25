@@ -7,3 +7,5 @@ roads in rural areas, the data shows that hundreds of villages do not
 have connectivity with major connecting roads.Due to the poor
 connectivity ,villages are deprived direct access to their
 requirements .
+
+
