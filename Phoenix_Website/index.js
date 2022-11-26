@@ -16,6 +16,7 @@ app.use("/images", express.static(__dirname + '/Entry Page/images'));
 app.use("/js", express.static(__dirname + '/Entry Page/js'));
 app.use("/plugins", express.static(__dirname + '/Entry Page/plugins'));
 
+//Handling Entry Page GET Requests
 app.get('/', function (req, res) {
     res.sendFile(path.join(__dirname, '/Entry Page/index.html'));
 });
@@ -24,11 +25,10 @@ app.get('/home', function (req, res) {
     res.sendFile(path.join(__dirname, '/Entry Page/index.html'));
 });
 
+//Handling E-Commerce Page GET Requests
 app.get('/order', function (req, res) {
     res.sendFile(path.join(__dirname, '/Entry Page/index.html'));
 });
-
-
 
 app.listen(port);
 console.log('Server started at http://localhost:' + port);
