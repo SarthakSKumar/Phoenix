@@ -116,7 +116,7 @@
     font-weight: 300;
 }
 #title1:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #title2{    
     
@@ -125,7 +125,7 @@
     font-weight: 300;
 }
 #title2:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #nav_search{
     width: 60px;
@@ -151,7 +151,7 @@
     cursor: pointer;
 }
 #icon_search:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon1{
     height: 20%;
@@ -164,7 +164,7 @@
     color: black;
 }
 #icon1:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon_cart{
     width: 40%;
@@ -176,7 +176,7 @@
     cursor: pointer;
 }
 #icon_cart:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon2{
     height: 20%;
@@ -189,7 +189,7 @@
     color: black;
 }
 #icon2:hover{
-    color: #00d290;
+    color: #d25400;
 }
 
  #nav_signin{
@@ -198,9 +198,9 @@
     height: 30px;  
     margin-top: 30px;    
     border-radius: 20px;
-    background-color: #00d290;
+    background-color: #d25400;
     color: white;
-    border: 1px solid #00d290;
+    border: 1px solid #d25400;
     cursor: pointer;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: 500;
@@ -226,7 +226,7 @@
 }
 .navy_text2{  
     padding-left: 180px;
-    color: #00d290;
+    color: #d25400;
     font-family: 'Trebuchet MS', sans-serif;
     font-weight: 300;
     font-size: medium;

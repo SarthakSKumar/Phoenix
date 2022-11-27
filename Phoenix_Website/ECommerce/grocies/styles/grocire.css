@@ -70,7 +70,7 @@ button{
     margin-top: 20px;
     background-color: rgb(255, 252, 246);
     border:0.1px solid rgb(187, 187, 187);
-    color: #00d290;
+    color: #d25400;
 }
 button:hover{
     border-radius: 20px;
@@ -101,7 +101,7 @@ a{
     color: black;
 }
 #a{
-    color: #00d290;
+    color: #d25400;
 }
 #ser-lis{
     height: 70%;
@@ -113,7 +113,7 @@ a{
     width: 100%;
     height: 100%;
     border-radius: 5px;
-    border: 0.1px solid #00d290;
+    border: 0.1px solid #d25400;
     margin-top: 5px;  
     font-size: 16px; 
 }
@@ -211,7 +211,7 @@ a{
     font-weight: 300;
 }
 #title1:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #title2{    
     
@@ -220,7 +220,7 @@ a{
     font-weight: 300;
 }
 #title2:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #nav_search{
     width: 60px;
@@ -247,7 +247,7 @@ a{
     cursor: pointer;
 }
 #icon_search:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon1{
     height: 20%;
@@ -260,7 +260,7 @@ a{
     color: black;
 }
 #icon1:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon_cart{
     width: 40%;
@@ -272,7 +272,7 @@ a{
     cursor: pointer;
 }
 #icon_cart:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon2{
     height: 20%;
@@ -285,7 +285,7 @@ a{
     color: black;
 }
 #icon2:hover{
-    color: #00d290;
+    color: #d25400;
 }
 
  #nav_signin{
@@ -294,9 +294,9 @@ a{
     height: 30px;  
     margin-top: 30px;    
     border-radius: 20px;
-    background-color: #00d290;
+    background-color: #d25400;
     color: white;
-    border: 1px solid #00d290;
+    border: 1px solid #d25400;
     cursor: pointer;
    font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -323,7 +323,7 @@ a{
 }
 .navy_text2{  
     padding-left: 180px;
-    color: #00d290;
+    color: #d25400;
    font-family: "Poppins", sans-serif;
     font-weight: 300;
     font-size: medium;
@@ -453,7 +453,7 @@ a{
     color: black;
 }
 #navaa:hover{
-    color:#00d290 ;
+    color:#d25400 ;
 }
 /*business pop */
 #formdata{
@@ -495,7 +495,7 @@ a{
   .text_p1:hover{
     padding-left: 20px;
     line-height: 5px;
-    color: #00d290;
+    color: #d25400;
   }
   .text_name1{
     padding-left: 20px;
@@ -506,7 +506,7 @@ a{
       width: 200px;
       height: 40px;
       border-radius: 50px;
-      background-color: #00d290;
+      background-color: #d25400;
       color: white;
       border: transparent;
      font-family: "Poppins", sans-serif;
@@ -555,7 +555,7 @@ a{
       margin: auto;
       margin-bottom: 10px;
       border-radius: 5px;
-       border: 0.001px solid #00d290;
+       border: 0.001px solid #d25400;
   }
   #navsearc{
       width: 90%;
@@ -665,7 +665,7 @@ a{
     height: 50px;
     border-radius: 20px;
     border: 1px solid gray;
-    background-color: #00d290;
+    background-color: #d25400;
     color: white;
     font-size: medium;
     font-weight: bolder;
@@ -679,7 +679,7 @@ a{
     height: 50px;
     border-radius: 20px;
     border: 1px solid gray;
-    background-color: #00d290;
+    background-color: #d25400;
     color: white;
     font-size: medium;
     font-weight: bolder;
@@ -748,7 +748,7 @@ a{
     cursor: pointer;
 }
 #icon_profile:hover{
-    color: #00d290;
+    color: #d25400;
 }
 #icon3{
     height: 20%;
@@ -759,6 +759,6 @@ a{
     font-size: small;
 }
 #icon3:hover{
-    color: #00d290;
+    color: #d25400;
 }     
       

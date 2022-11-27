@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -192,6 +193,7 @@ button:hover{
         
     </style> -->
 </head>
+
 <body>
     <div id="Mnavbar"></div>
 
@@ -209,7 +211,8 @@ button:hover{
 
     <div id="heading_cont">
         <div id="img_div">
-            <img src="https://ik.imagekit.io/dunzo/dunzo-catalog-prod/tr:w-220,h-220,cm-pad_resize_store_thumbnail/stores/e96d0b0a-3108-4e95-8709-7ce0b671d8a3-1562066183619-store_image.jpg" alt="">
+            <img src="https://ik.imagekit.io/dunzo/dunzo-catalog-prod/tr:w-220,h-220,cm-pad_resize_store_thumbnail/stores/e96d0b0a-3108-4e95-8709-7ce0b671d8a3-1562066183619-store_image.jpg"
+                alt="">
         </div>
         <div id="heading">
             <p>South Indian</p>
@@ -220,7 +223,7 @@ button:hover{
 
     <div id="search-div">
         <div>
-            <input type="text" placeholder = "Search in Murudis Lunch Home">
+            <input type="text" placeholder="Search in Murudis Lunch Home">
         </div>
     </div>
 
@@ -230,129 +233,130 @@ button:hover{
             <p>Main Course</p>
             <p>Combos</p>
         </div>
-        <div id="martdata">        
-            <h1 id="h1">South Indian</h1>         
+        <div id="martdata">
+            <h1 id="h1">South Indian</h1>
         </div>
-   <div id="fvCart">
-        <h1>Your Cart</h1>        
-        <h2 id="item"></h2>
-       
-        <img src="https://resources.dunzo.com/web-assets/prod/_next/static/images/no-items-in-cart-7e84056f44993b68d14184f9b2992af7.png" alt="">
-        <ul id="ful">
-           
-        </ul>
-        <button id="co"></button>
-    </div>
+        <div id="fvCart">
+            <h1>Your Cart</h1>
+            <h2 id="item"></h2>
+
+            <img src="https://resources.dunzo.com/web-assets/prod/_next/static/images/no-items-in-cart-7e84056f44993b68d14184f9b2992af7.png"
+                alt="">
+            <ul id="ful">
+
+            </ul>
+            <button id="co"></button>
+        </div>
     </div>
 
 </body>
+
 </html>
 
 
 <script type="module">
-   
+
     import navbar from '../homepage/components/navbar.js';
 
     let nav_div = document.getElementById('Mnavbar');
 
     nav_div.innerHTML = navbar();
 
-    document.getElementById('nav_img').addEventListener('click', function(){
+    document.getElementById('nav_img').addEventListener('click', function () {
 
-    window.location.href = '../homepage/homepage.html';
-})
-let obj={}
-
-
-    let n=0;
-    let sum=0;
-
-    let data_div=document.querySelector("#martdata");
-  
-    let co=document.querySelector("#co");
-    co.addEventListener("click",proceed)
-function proceed(){
-    window.location.href="../cart/cart.html";
-}
-
-    let meal = async() => {
-
-    try{
-
-        let res = await fetch('https://dunzobackendclone.herokuapp.com/restaurants');
-        let meals = await res.json();
-
-        
-        meals.forEach(el=>{
-        // console.log(el)
-        let ful=document.querySelector("#ful")
-        let button=document.createElement("button");
-        let div2=document.createElement("div");
-        let div=document.createElement("div");
-        let img=document.createElement("img");
-        let fh=document.createElement("h4");
-        img.src=el.image;
-        // img.style.width = '25px';
-        // img.style.height = '25px';
-        let rn=Math.floor(Math.random()*100)
-        let h4=document.createElement("h4")
-        h4.textContent=`₹${rn}`
-        fh.textContent=el.title;
-        button.textContent="+ ADD"
-        button.addEventListener("click",cta)
-        function cta(){
-            obj={
-                img:el.image,
-                name:el.title,
-                price:rn
-            }
-        n+=1;
-        console.log(el.image)
-        sum+=rn;
-        localStorage.setItem(`Items${n+100}`,JSON.stringify(obj))
-        localStorage.setItem("NOII",`${n}`)
-        localStorage.setItem("SOII",`${sum}`)
-        let li=document.createElement("li");
-        fvCart.textContent=`${n} Item`
-        co.textContent=` Checkout ₹${sum}`  
-        
-        li.textContent=`${el.title} || 1 kg || ₹${rn}.00`;        
-        let rem=document.createElement("button")
-        rem.textContent="Remove"
-        rem.addEventListener("click",remo);
-        function remo(){
-            li.remove()
-            localStorage.removeItem(`Items${n+100}`)
-            n-=1;
-           
-            
-            sum-=rn;
-            console.log(sum,n)
-            localStorage.setItem("SOII",`${sum}`)
-            localStorage.setItem("NOII",`${n}`)
-            fvCart.textContent=`${n} Item`
-            co.textContent=` Checkout ₹${sum}`
-        }
-        console.log(sum,n)
-        li.append(rem)
-        ful.append(li)
-        console.log(n)
-        }
-        div2.append(fh,h4,button)
-        div.append(img,div2);
-        data_div.append(div)  
+        window.location.href = '../homepage/homepage.html';
     })
+    let obj = {}
+
+
+    let n = 0;
+    let sum = 0;
+
+    let data_div = document.querySelector("#martdata");
+
+    let co = document.querySelector("#co");
+    co.addEventListener("click", proceed)
+    function proceed() {
+        window.location.href = "../cart/cart.html";
     }
-    catch(e) 
-    {
-        console.log(e);
+
+    let meal = async () => {
+
+        try {
+
+            let res = await fetch('https://dunzobackendclone.herokuapp.com/restaurants');
+            let meals = await res.json();
+
+
+            meals.forEach(el => {
+                // console.log(el)
+                let ful = document.querySelector("#ful")
+                let button = document.createElement("button");
+                let div2 = document.createElement("div");
+                let div = document.createElement("div");
+                let img = document.createElement("img");
+                let fh = document.createElement("h4");
+                img.src = el.image;
+                // img.style.width = '25px';
+                // img.style.height = '25px';
+                let rn = Math.floor(Math.random() * 100)
+                let h4 = document.createElement("h4")
+                h4.textContent = `₹${rn}`
+                fh.textContent = el.title;
+                button.textContent = "+ ADD"
+                button.addEventListener("click", cta)
+                function cta() {
+                    obj = {
+                        img: el.image,
+                        name: el.title,
+                        price: rn
+                    }
+                    n += 1;
+                    console.log(el.image)
+                    sum += rn;
+                    localStorage.setItem(`Items${n + 100}`, JSON.stringify(obj))
+                    localStorage.setItem("NOII", `${n}`)
+                    localStorage.setItem("SOII", `${sum}`)
+                    let li = document.createElement("li");
+                    fvCart.textContent = `${n} Item`
+                    co.textContent = ` Checkout ₹${sum}`
+
+                    li.textContent = `${el.title} || 1 kg || ₹${rn}.00`;
+                    let rem = document.createElement("button")
+                    rem.textContent = "Remove"
+                    rem.addEventListener("click", remo);
+                    function remo() {
+                        li.remove()
+                        localStorage.removeItem(`Items${n + 100}`)
+                        n -= 1;
+
+
+                        sum -= rn;
+                        console.log(sum, n)
+                        localStorage.setItem("SOII", `${sum}`)
+                        localStorage.setItem("NOII", `${n}`)
+                        fvCart.textContent = `${n} Item`
+                        co.textContent = ` Checkout ₹${sum}`
+                    }
+                    console.log(sum, n)
+                    li.append(rem)
+                    ful.append(li)
+                    console.log(n)
+                }
+                div2.append(fh, h4, button)
+                div.append(img, div2);
+                data_div.append(div)
+            })
+        }
+        catch (e) {
+            console.log(e);
+        }
     }
-}
-let fvCart=document.querySelector("#item");
+    let fvCart = document.querySelector("#item");
 
-meal();
-
+    meal();
 
 
-  
+
+
 </script>

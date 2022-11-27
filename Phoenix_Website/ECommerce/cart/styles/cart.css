@@ -38,7 +38,7 @@ body{
     margin-top: -60px;
     height: 30px;
     width: 30px;
-    border: #00d290 3px solid;
+    border: #d25400 3px solid;
     border-radius: 50%;
 }
 
@@ -102,7 +102,7 @@ button:hover{
     height: 11px;
     width: 11px;
     border-radius: 50px;
-    border: solid 5px #00d290;  
+    border: solid 5px #d25400;  
 }
 #signin
 {
@@ -130,7 +130,7 @@ p{
     width: 200px;
     border: none;
     border-radius: 20px;
-    background-color: #00d290;
+    background-color: #d25400;
 }
 #address
 {
@@ -148,7 +148,7 @@ p{
     width: 200px;
     border: none;
     border-radius: 20px;
-    background-color: #00d290;
+    background-color: #d25400;
 }
 #payment
 {
@@ -234,7 +234,7 @@ p{
     width: 200px;
     border: none;
     border-radius: 20px;
-    background-color: #00d290;
+    background-color: #d25400;
 }
 #right{
     height: 100%;
@@ -424,7 +424,7 @@ p{
 }
 
 #pp{
-    color: #00d290;
+    color: #d25400;
 }
 h4{
     font-family: Gilroy,sans-serif;
@@ -494,7 +494,7 @@ h4{
     margin-left: 200px;
     height: 30px;
     width: 30px;
-     color: #00d290;
+     color: #d25400;
 }
 a{
     text-decoration: none;
