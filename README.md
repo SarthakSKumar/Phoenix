@@ -46,14 +46,13 @@ duration, battery efficiency, payload, and flight range.
 It holds the advantages of multiple UAVs combined into one.
 
 ## Technologies 🖥️
-Software:
-Website: HTML, CSS, Vanilla JS, Firebase
-Simulation: ArduPilot (Mission Planner), SITL
-Callibration: ArduPilot (Mission Planner), PixHawk
+### Software
+#### Website: HTML, CSS, Vanilla JS, Firebase
+#### Simulation: ArduPilot (Mission Planner), SITL
+#### Callibration: ArduPilot (Mission Planner), PixHawk
 
-Hardware:
-PixHawk, ESC, Brushless Motors, GPS Module, Radio Telemetry
-Servo Motors, ESP32 CAM, FTDI Programmer
+### Hardware
+#### PixHawk | ESC | Brushless Motors | GPS Module | Radio Telemetry | Servo Motors | ESP32 CAM | FTDI Programmer
 
 ## Website 🌐
 We have built an interactive and dynamic website which allows the user to 
