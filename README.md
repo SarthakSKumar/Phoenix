@@ -12,7 +12,7 @@
 
 </div>
 
-## Problem Statement
+## Problem Statement 🗣️
 The geography of India is extremely diverse, with landscapes ranging
 from snow-capped mountain ranges to deserts, plains, hills and
 plateaus. Though the state government claims to have built several
@@ -21,7 +21,7 @@ have connectivity with major connecting roads. Due to poor
 connectivity, villages are deprived of direct access to their
 requirements.
 
-## Our Solution
+## Our Solution 💡
 We plan on solving this problem using VTOL (vertical take-off and
 landing). People living in remote areas will be delivered the requested
 items quickly and efficiently using VTOL. Crucial deliveries like medication
@@ -34,7 +34,7 @@ TakeOff and Landing, meaning, it does not require long airstrips or runways
 to get airborne, consequently eliminating the need for expensive infrastructure
 It holds the advantages of multiple UAVs combined into one.
 
-## Methodology
+## Methodology 🪜
 We have chosen a tri-copter-based VTOL configuration:
 During takeoff and landing, it will act like a tri-copter and when we switch from
 takeoff mode to forward flight mode, the two front motors will tilt 90 degrees( it
@@ -45,14 +45,14 @@ cost to a minimum and test out different configurations and properties like flig
 duration, battery efficiency, payload, and flight range.
 It holds the advantages of multiple UAVs combined into one.
 
-## Tech Stack
+## Tech Stack 🖥️
 • Software or Hardware required • Software – Ardupilot, Ground control
 , SITL
 • Hardware – Pixhawk Flight Controller, GPS module, Telemetry
 Module, Raspberry pi, Sensors, Motors and Servos
 •React for the frontend and firebase for the backend.
 
-## Website
+## Website 🌐
 We have built an interactive and dynamic website which allows the user to 
 specify the pickup and drop location. this is taken by the VTOL in realtime 
 and acts accordingly. the user is allowed to track his/her order through the website
