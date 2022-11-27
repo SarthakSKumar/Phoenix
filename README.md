@@ -45,12 +45,15 @@ cost to a minimum and test out different configurations and properties like flig
 duration, battery efficiency, payload, and flight range.
 It holds the advantages of multiple UAVs combined into one.
 
-## Tech Stack 🖥️
-• Software or Hardware required • Software – Ardupilot, Ground control
-, SITL
-• Hardware – Pixhawk Flight Controller, GPS module, Telemetry
-Module, Raspberry pi, Sensors, Motors and Servos
-•React for the frontend and firebase for the backend.
+## Technologies 🖥️
+Software:
+Website: HTML, CSS, Vanilla JS, Firebase
+Simulation: ArduPilot (Mission Planner), SITL
+Callibration: ArduPilot (Mission Planner), PixHawk
+
+Hardware:
+PixHawk, ESC, Brushless Motors, GPS Module, Radio Telemetry
+Servo Motors, ESP32 CAM, FTDI Programmer
 
 ## Website 🌐
 We have built an interactive and dynamic website which allows the user to 
