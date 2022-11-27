@@ -1,4 +1,4 @@
-function navbar(){
+function navbar() {
 
     return `
 
@@ -8,8 +8,8 @@ function navbar(){
     
     <img id="nav_location" src="./images/location.png">
     <div id = "tit">
-    <h4 id="title1">Dunzo for Partners</h4>
-    <h4 id="title2">Business with Dunzo </h4>
+    <h4 id="title1">Phoenix for Partners</h4>
+    <h4 id="title2">Business with Phoenix </h4>
     </div>
     <div id="nav_search">
         <img id="icon_search" src="./images/search.png">

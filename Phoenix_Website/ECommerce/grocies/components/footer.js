@@ -1,4 +1,4 @@
-function footer(){
+function footer() {
 
     return `<div id="footer_index">
     <h4 id="footer_h4">You can't stop time, but you can save it!</h4>
@@ -6,7 +6,7 @@ function footer(){
         supplies, grab food and wade through traffic on the way back home. How about we take care of 
         all of the above for you? what if you can give all that time back? Send packages across the city
         and get everything from food, groceries, medicines, and pet supplies delivered right to your doorstep. 
-        From any share to your door, just make a list and we'll make it disappear. Just Dunzo It!</p>
+        From any share to your door, just make a list and we'll make it disappear. Just Phoenix It!</p>
 </div>
 <div id="line"></div>
 <div id="footer_end">
@@ -14,14 +14,14 @@ function footer(){
         <img id="dunzo_logo" src="./images/Dunzo_Footer_logo.png">
     </div>
     <div id="footer_dunzo">
-        <h4>DUNZO</h4>
+        <h4>Phoenix</h4>
         <a href="#"><p id = "fot">About</p></a>
         <a href="#"><p id = "fot">Jobs</p></a>
         <a href="#"><p id = "fot">Contact</p></a>
         <a href="#"><p id = "fot">Terms & Condition</p></a>
         <a href="#"><p id = "fot">Privacy Policy</p></a>
-        <a href="#"><p id = "fot">Dunzo for partners</p></a>
-        <a href="#"><p id = "fot">Dunzo for business</p></a>
+        <a href="#"><p id = "fot">Phoenix for partners</p></a>
+        <a href="#"><p id = "fot">Phoenix for business</p></a>
     </div>
     <div id="footer_service">
         <h4>SERVICABLE CITIES</h4>
