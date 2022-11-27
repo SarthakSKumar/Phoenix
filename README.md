@@ -3,8 +3,8 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 [![SarthakSKumar - Phoenix](https://img.shields.io/static/v1?label=SarthakSKumar&message=Phoenix&color=blue&logo=github)](https://github.com/SarthakSKumar/Phoenix)
-[![stars - Phoenix](https://img.shields.io/github/stars/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix)
-[![forks - Phoenix](https://img.shields.io/github/forks/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix)<br>
+[![stars - Phoenix](https://img.shields.io/github/stars/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix/stars)
+[![forks - Phoenix](https://img.shields.io/github/forks/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix/forks)<br>
 [![issues - Phoenix](https://img.shields.io/github/issues/adithya-s-k/Phoenix)](https://github.com/adithya-s-k/Phoenix/issues)
 ![Maintained - yes](https://img.shields.io/badge/Maintained-yes-green)
 ![Contributions - welcome](https://img.shields.io/badge/Contributions-welcome-blueviolet)<br><br>
@@ -45,12 +45,14 @@ cost to a minimum and test out different configurations and properties like flig
 duration, battery efficiency, payload, and flight range.
 It holds the advantages of multiple UAVs combined into one.
 
-## Tech Stack 🖥️
-• Software or Hardware required • Software – Ardupilot, Ground control
-, SITL
-• Hardware – Pixhawk Flight Controller, GPS module, Telemetry
-Module, Raspberry pi, Sensors, Motors and Servos
-•React for the frontend and firebase for the backend.
+## Technologies 🖥️
+### Software
+#### Website: HTML, CSS, Vanilla JS, Firebase
+#### Simulation: ArduPilot (Mission Planner), SITL
+#### Callibration: ArduPilot (Mission Planner), PixHawk
+
+### Hardware
+#### PixHawk | ESC | Brushless Motors | GPS Module | Radio Telemetry | Servo Motors | ESP32 CAM | FTDI Programmer
 
 ## Website 🌐
 We have built an interactive and dynamic website which allows the user to 
