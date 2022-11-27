@@ -6,7 +6,7 @@ function footer() {
         supplies, grab food and wade through traffic on the way back home. How about we take care of 
         all of the above for you? what if you can give all that time back? Send packages across the city
         and get everything from food, groceries, medicines, and pet supplies delivered right to your doorstep. 
-        From any share to your door, just make a list and we'll make it disappear. Just Dunzo It!</p>
+        From any share to your door, just make a list and we'll make it disappear. Just Phoenix It!</p>
 </div>
 <div id="line"></div>
 <div id="footer_end">
