@@ -3,8 +3,8 @@
 
 ![License](https://img.shields.io/badge/License-MIT-blue)
 [![SarthakSKumar - Phoenix](https://img.shields.io/static/v1?label=SarthakSKumar&message=Phoenix&color=blue&logo=github)](https://github.com/SarthakSKumar/Phoenix)
-[![stars - Phoenix](https://img.shields.io/github/stars/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix)
-[![forks - Phoenix](https://img.shields.io/github/forks/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix)<br>
+[![stars - Phoenix](https://img.shields.io/github/stars/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix/stars)
+[![forks - Phoenix](https://img.shields.io/github/forks/SarthakSKumar/Phoenix?style=social)](https://github.com/SarthakSKumar/Phoenix/forks)<br>
 [![issues - Phoenix](https://img.shields.io/github/issues/adithya-s-k/Phoenix)](https://github.com/adithya-s-k/Phoenix/issues)
 ![Maintained - yes](https://img.shields.io/badge/Maintained-yes-green)
 ![Contributions - welcome](https://img.shields.io/badge/Contributions-welcome-blueviolet)<br><br>
