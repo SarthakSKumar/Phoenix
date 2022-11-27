@@ -1,4 +1,4 @@
-function footer(){
+function footer() {
 
     return `<div id="footer_index">
     <h4 id="footer_h4">You can't stop time, but you can save it!</h4>
@@ -14,14 +14,14 @@ function footer(){
         <img id="dunzo_logo" src="./images/Dunzo_Footer_logo.png">
     </div>
     <div id="footer_dunzo">
-        <a href="#"><h3>DUNZO</h3></a>
+        <a href="#"><h3>PHOENIX</h3></a>
         <a href="#"><h4>About</h4></a>
         <a href="#"><h4>Jobs</h4></a>
         <a href="#"><h4>Contact</h4></a>
         <a href="#"><h4>Terms & Condition</h4></a>
         <a href="#"><h4>Privacy Policy</h4></a>
-        <a href="#"><h4>Dunzo for partners</h4></a>
-        <a href="#"><h4>Dunzo for business</h4></a>
+        <a href="#"><h4>PHOENIX for partners</h4></a>
+        <a href="#"><h4>PHOENIX for business</h4></a>
     </div>
     <div id="footer_service">
         <a href="#"><h3>SERVICABLE CITIES</h3></a>

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,17 +8,18 @@
     <link rel="stylesheet" href="./styles/index.css">
     <title>Profile</title>
 </head>
+
 <body>
     <div id="Mcontainer">
         <!-- navbar -->
         <div id="Mnavbar">
-            
+
         </div>
-        
+
         <!-- navyBlue -->
         <div id="Mnavy">
             <img id="navy_icon" src="./images/HomeIcon.png">
-            <h3 class="navy_text1">Order Paan items, munchies and much more on our new Phoenix Mo app</h3>
+            <h3 class="navy_text1">Order items and much more on our new Phoenix Mo app</h3>
             <h3 class="navy_text2">Download Phoenix Mo app now ></h3>
         </div>
 
@@ -96,9 +98,12 @@
                 <img id="fruits" src="./images/Home_Grid1_img4.png">
             </div>
             <div id="grid2">
-                <div><a href="#"><img id="meat" src="./images/Home_Grid2_img1.png"></a><p>Meat and Fish</p></div>
-                <div><a href="#"><img id="pet" src="./images/Home_Grid2_img2.png"></a><p>Pet Supplies</p></div>
-                <div><a href="#"><img id="paan" src="./images/Home_Grid2_img3.png"></a><p>Paan Shop</p></div>
+                <div><a href="#"><img id="meat" src="./images/Home_Grid2_img1.png"></a>
+                    <p>Meat and Fish</p>
+                </div>
+                <div><a href="#"><img id="pet" src="./images/Home_Grid2_img2.png"></a>
+                    <p>Pet Supplies</p>
+                </div>
             </div>
         </div>
 
@@ -122,7 +127,7 @@
             <div id="mobile_right">
                 <h3 class="name1">All this from the convenience of your phone.</h3>
                 <h3 class="name3">Download the Phoenix mobile app.</h3>
-                    <img id="google" src="./images/googleapple.png">
+                <img id="google" src="./images/googleapple.png">
             </div>
             <div></div>
         </div>
@@ -131,185 +136,186 @@
 
     <!-- Footer Part -->
     <div id="footer">
-        
+
     </div>
 
 </body>
+
 </html>
 
 
 <script type="module">
 
-// navbar Dynamic
-import navbar from './scripts/homepage.js';
+    // navbar Dynamic
+    import navbar from './scripts/homepage.js';
 
-let navbar_container = document.getElementById('Mnavbar');
+    let navbar_container = document.getElementById('Mnavbar');
 
-navbar_container.innerHTML = navbar()
-
-
-// footer Dynamic
-import footer from './components/footer.js';
-
-let footer_container = document.getElementById('footer');
-
-footer_container.innerHTML = footer()
+    navbar_container.innerHTML = navbar()
 
 
+    // footer Dynamic
+    import footer from './components/footer.js';
 
-//location display
-var location = document.getElementById('nav_location').addEventListener('click', displayLocation);
-var closeLocation = document.getElementById('loc_cancel').addEventListener('click', closelocation);
+    let footer_container = document.getElementById('footer');
 
-function displayLocation(){
-
-    document.getElementById('Search_loc_container').style.display = 'block';
-    document.getElementById('MmainImg').style.display = "none";
-    document.getElementById('Mgrid1').style.display = "none";
-    document.getElementById('Mgrid2').style.display = "none";
-    document.getElementById('Mmobile').style.display = "none";
-}
-
-function closelocation(){
-    document.getElementById('Search_loc_container').style.display = 'none';
-    document.getElementById('MmainImg').style.display = "block";
-    document.getElementById('Mgrid1').style.display = "block";
-    document.getElementById('Mgrid2').style.display = "block";
-    document.getElementById('Mmobile').style.display = "block";
-}
-
-// //Login Popup
-// var openLogin = document.getElementById('nav_signin').addEventListener('click', openForm);
-// var closeLogin = document.getElementById('cancel').addEventListener('click', closeForm);
-
-// function openForm() {
-    
-//   document.getElementById("myForm").style.display = "block";
-//   document.getElementById('MmainImg').style.display = "none";
-//   document.getElementById('Mgrid1').style.display = "none";
-//   document.getElementById('Mgrid2').style.display = "none";
-//   document.getElementById('Mmobile').style.display = "none";
-// }
-// function closeForm() {
-//   document.getElementById("myForm").style.display = 'none';
-//   document.getElementById('MmainImg').style.display = "block";
-//   document.getElementById('Mgrid1').style.display = "block";
-//   document.getElementById('Mgrid2').style.display = "block";
-//   document.getElementById('Mmobile').style.display = "block";
-// }
-
-
-// //OTP Popup
-// var enterotp = document.getElementById('otpsubmit').addEventListener('click', enterOtp);
-// var cancelorp = document.getElementById('cancel_otp').addEventListener('click', submitForm);
-
-// function enterOtp(){
-//   document.getElementById("myForm").innerHTML = null;
-//   document.getElementById("myOTP").style.display = "block";
-//   document.getElementById("myForm").style.display = "none";
-//   document.getElementById('MmainImg').style.display = "none";
-//   document.getElementById('Mgrid1').style.display = "none";
-//   document.getElementById('Mgrid2').style.display = "none";
-//   document.getElementById('Mmobile').style.display = "none";
-// }
-
-// function submitForm(){
-//   document.getElementById("myForm").style.display = 'none';
-//   document.getElementById("myOTP").style.display = "none";
-//   document.getElementById('MmainImg').style.display = "block";
-//   document.getElementById('Mgrid1').style.display = "block";
-//   document.getElementById('Mgrid2').style.display = "block";
-//   document.getElementById('Mmobile').style.display = "block";
-// }
-
-let msg = document.getElementById('loc');
-
-let display_location = document.getElementById('loc_submit').addEventListener('click', displayMap);
+    footer_container.innerHTML = footer()
 
 
 
-async function displayMap(){
+    //location display
+    var location = document.getElementById('nav_location').addEventListener('click', displayLocation);
+    var closeLocation = document.getElementById('loc_cancel').addEventListener('click', closelocation);
 
-let places = document.getElementById('loc_places').value;
+    function displayLocation() {
 
-let res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${places}&appid=b583ff57ac8a4cb13f0ac928e8d36ddf&units=metric`);
+        document.getElementById('Search_loc_container').style.display = 'block';
+        document.getElementById('MmainImg').style.display = "none";
+        document.getElementById('Mgrid1').style.display = "none";
+        document.getElementById('Mgrid2').style.display = "none";
+        document.getElementById('Mmobile').style.display = "none";
+    }
 
-let data = await res.json();
-append(data)
-console.log(data);
-}
-
-function append(e){
-
-    var div = document.createElement('div');
-
-    var place = document.createElement('h4');
-    place.textContent = e.name;
-    place.setAttribute('class', 'place');
-    // console.log(place);
-    var ida = place.innerHTML;
-    console.log(ida)
-
-    place.addEventListener('click', ()=>{
-        msg.textContent = ida;
-        document.getElementById('city_name_msg').textContent = ida;
-        document.getElementById('city_details_msg').textContent = 'Why step out when you can get everything delivered home with the tap of a button? Bangalore’s favourite delivery app gets you Food, Grocery, Medicine, Pet Supplies, Fruits & Vegetables, Meat & Fish, Health & Wellness, Gifts and Send Packages from one end of the city to the other. From your local kirana stores to your favourite brands, grocery shopping to your forgotten charger, we are always on the move for you. Why worry about your chores, when you can get it all Dun!';
+    function closelocation() {
         document.getElementById('Search_loc_container').style.display = 'none';
         document.getElementById('MmainImg').style.display = "block";
         document.getElementById('Mgrid1').style.display = "block";
         document.getElementById('Mgrid2').style.display = "block";
         document.getElementById('Mmobile').style.display = "block";
+    }
+
+    // //Login Popup
+    // var openLogin = document.getElementById('nav_signin').addEventListener('click', openForm);
+    // var closeLogin = document.getElementById('cancel').addEventListener('click', closeForm);
+
+    // function openForm() {
+
+    //   document.getElementById("myForm").style.display = "block";
+    //   document.getElementById('MmainImg').style.display = "none";
+    //   document.getElementById('Mgrid1').style.display = "none";
+    //   document.getElementById('Mgrid2').style.display = "none";
+    //   document.getElementById('Mmobile').style.display = "none";
+    // }
+    // function closeForm() {
+    //   document.getElementById("myForm").style.display = 'none';
+    //   document.getElementById('MmainImg').style.display = "block";
+    //   document.getElementById('Mgrid1').style.display = "block";
+    //   document.getElementById('Mgrid2').style.display = "block";
+    //   document.getElementById('Mmobile').style.display = "block";
+    // }
+
+
+    // //OTP Popup
+    // var enterotp = document.getElementById('otpsubmit').addEventListener('click', enterOtp);
+    // var cancelorp = document.getElementById('cancel_otp').addEventListener('click', submitForm);
+
+    // function enterOtp(){
+    //   document.getElementById("myForm").innerHTML = null;
+    //   document.getElementById("myOTP").style.display = "block";
+    //   document.getElementById("myForm").style.display = "none";
+    //   document.getElementById('MmainImg').style.display = "none";
+    //   document.getElementById('Mgrid1').style.display = "none";
+    //   document.getElementById('Mgrid2').style.display = "none";
+    //   document.getElementById('Mmobile').style.display = "none";
+    // }
+
+    // function submitForm(){
+    //   document.getElementById("myForm").style.display = 'none';
+    //   document.getElementById("myOTP").style.display = "none";
+    //   document.getElementById('MmainImg').style.display = "block";
+    //   document.getElementById('Mgrid1').style.display = "block";
+    //   document.getElementById('Mgrid2').style.display = "block";
+    //   document.getElementById('Mmobile').style.display = "block";
+    // }
+
+    let msg = document.getElementById('loc');
+
+    let display_location = document.getElementById('loc_submit').addEventListener('click', displayMap);
+
+
+
+    async function displayMap() {
+
+        let places = document.getElementById('loc_places').value;
+
+        let res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${places}&appid=b583ff57ac8a4cb13f0ac928e8d36ddf&units=metric`);
+
+        let data = await res.json();
+        append(data)
+        console.log(data);
+    }
+
+    function append(e) {
+
+        var div = document.createElement('div');
+
+        var place = document.createElement('h4');
+        place.textContent = e.name;
+        place.setAttribute('class', 'place');
+        // console.log(place);
+        var ida = place.innerHTML;
+        console.log(ida)
+
+        place.addEventListener('click', () => {
+            msg.textContent = ida;
+            document.getElementById('city_name_msg').textContent = ida;
+            document.getElementById('city_details_msg').textContent = 'Why step out when you can get everything delivered home with the tap of a button? Bangalore’s favourite delivery app gets you Food, Grocery, Medicine, Pet Supplies, Fruits & Vegetables, Meat & Fish, Health & Wellness, Gifts and Send Packages from one end of the city to the other. From your local kirana stores to your favourite brands, grocery shopping to your forgotten charger, we are always on the move for you. Why worry about your chores, when you can get it all Dun!';
+            document.getElementById('Search_loc_container').style.display = 'none';
+            document.getElementById('MmainImg').style.display = "block";
+            document.getElementById('Mgrid1').style.display = "block";
+            document.getElementById('Mgrid2').style.display = "block";
+            document.getElementById('Mmobile').style.display = "block";
+        })
+
+        // place.addEventListener('click', (e)=>{
+        //     msg.textContent = ida;
+        //     document.getElementById('Search_loc_container').style.display = 'none';
+        //     document.getElementById('MmainImg').style.display = "block";
+        //     document.getElementById('Mgrid1').style.display = "block";
+        //     document.getElementById('Mgrid2').style.display = "block";
+        //     document.getElementById('Mmobile').style.display = "block";
+        // })
+
+
+        div.append(place);
+        document.getElementById('loc_content').append(div)
+
+        //  place.addEventListener('click', function(){
+        //      document.getElementById('location_place').textContent = e.name;
+        //  });
+
+    }
+
+
+
+    //Search navigation
+    document.getElementById('icon_search').addEventListener('click', () => {
+        window.location.href = 'search.html';
     })
 
-    // place.addEventListener('click', (e)=>{
-    //     msg.textContent = ida;
-    //     document.getElementById('Search_loc_container').style.display = 'none';
-    //     document.getElementById('MmainImg').style.display = "block";
-    //     document.getElementById('Mgrid1').style.display = "block";
-    //     document.getElementById('Mgrid2').style.display = "block";
-    //     document.getElementById('Mmobile').style.display = "block";
-    // })
+    //cart navigation
+    document.getElementById('nav_cart').addEventListener('click', () => {
+        window.location.href = '../cart/cart.html';
+    })
 
-    
-    div.append(place);
-    document.getElementById('loc_content').append(div)
+    //groceries navigation
+    document.getElementById('groceries').addEventListener('click', () => {
+        window.location.href = '../grocies/grochome.html'
+    })
 
-    //  place.addEventListener('click', function(){
-    //      document.getElementById('location_place').textContent = e.name;
-    //  });
+    //Pickup navigation
+    document.getElementById('pickup').addEventListener('click', () => {
+        window.location.href = '../pickup/pickup.html'
+    })
 
-}
+    //Restaurant navigation
+    document.getElementById('restaurant').addEventListener('click', () => {
+        window.location.href = '../Restaurant/Restaurant.html'
+    })
 
-
-
-//Search navigation
-document.getElementById('icon_search').addEventListener('click', ()=>{
-    window.location.href = 'search.html';
-})
-
-//cart navigation
-document.getElementById('nav_cart').addEventListener('click', ()=>{
-   window.location.href = '../cart/cart.html';
-})
-
-//groceries navigation
-document.getElementById('groceries').addEventListener('click', ()=>{
-    window.location.href = '../grocies/grochome.html'
-})
-
-//Pickup navigation
-document.getElementById('pickup').addEventListener('click', ()=>{
-    window.location.href = '../pickup/pickup.html'
-})
-
-//Restaurant navigation
-document.getElementById('restaurant').addEventListener('click', ()=>{
-    window.location.href = '../Restaurant/Restaurant.html'
-})
-
-//Fruits and Vegetables navigation
-document.getElementById('fruits').addEventListener('click', ()=>{
-    window.location.href = '../fruits_and_vegetables/fruitsAndVegetables.html'
-})
+    //Fruits and Vegetables navigation
+    document.getElementById('fruits').addEventListener('click', () => {
+        window.location.href = '../fruits_and_vegetables/fruitsAndVegetables.html'
+    })
 
 </script>
