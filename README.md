@@ -10,6 +10,8 @@
 ![Contributions - welcome](https://img.shields.io/badge/Contributions-welcome-blueviolet)<br><br>
 [![Site](https://img.shields.io/badge/View_site-Phoenix-2ea44f?style=for-the-badge)](https://SarthakSKumar.github.io/Phoenix/)
 
+https://user-images.githubusercontent.com/27956426/204612842-0325db74-ab61-471d-9e5b-f29611b60089.mp4
+
 </div>
 
 ## Problem Statement 🗣️
@@ -57,4 +59,5 @@ It holds the advantages of multiple UAVs combined into one.
 ## Website 🌐
 We have built an interactive and dynamic website which allows the user to 
 specify the pickup and drop location. this is taken by the VTOL in realtime 
-and acts accordingly. the user is allowed to track his/her order through the website
+and acts accordingly. the user is allowed to
+track his/her order through the website
