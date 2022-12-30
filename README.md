@@ -61,3 +61,6 @@ We have built an interactive and dynamic website which allows the user to
 specify the pickup and drop location. this is taken by the VTOL in realtime 
 and acts accordingly. the user is allowed to
 track his/her order through the website
+
+## Repo Contributors ❤️
+  <img src = "https://contrib.rocks/image?repo=SarthakSKumar/Intro-to-Git-and-Github-workshop"/>
